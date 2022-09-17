@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 0) do
         t.string "player_name"
         t.string "player_team"
         t.integer "player_age"
-        t.integer "player_id"
+        t.string "player_position"
     end
 
     create_table "coaches", force: :cascade do |t|
