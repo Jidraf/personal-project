@@ -5,5 +5,6 @@ class CreatePlayers < ActiveRecord::Migration[6.1]
       t.string :player_team
       t.integer :player_age
       t.string :player_position
+    end
   end
 end
