@@ -42,6 +42,9 @@ team1 = Team.create(teams_name:"Chelsea",teams_stadium:"Stamford Bridge")
 team2 = Team.create(teams_name:"ManCity",teams_stadium:"Etihad")
 team3 = Team.create(teams_name:"Spurs",teams_stadium:"Tottenham Stadium")
 
-
+#seeds for coaches
+coach1 = Coach.create(coaches_name:"Graham Potter",coaches_team:"Chelsea")
+coach2 = Coach.create(coaches_name:"Pep Guardiola",coaches_team:"ManCity")
+coach3 = Coach.create(coaches_name:"Antonie Conte",coaches_team:"Spurs")
 
 puts "✅ Done seeding!"
