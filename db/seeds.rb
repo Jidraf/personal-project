@@ -37,5 +37,11 @@ player31 = Player.create(player_name:"Clement Lenglet",player_team:"Spurs",playe
 player32 = Player.create(player_name:"Ivan Perisic",player_team:"Spurs",player_age:33,player_position:"Defender")
 player33 = Player.create(player_name:"Hugo Llrois",player_team:"Spurs",player_age:36,player_position:"GoalKeeper")
 
+#seeds for teams
+team1 = Team.create(teams_name:"Chelsea",teams_stadium:"Stamford Bridge")
+team2 = Team.create(teams_name:"ManCity",teams_stadium:"Etihad")
+team3 = Team.create(teams_name:"Spurs",teams_stadium:"Tottenham Stadium")
+
+
 
 puts "✅ Done seeding!"
